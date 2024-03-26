@@ -1,5 +1,9 @@
 # Base de datos
 
+## Classroom
+
+☑️ [BBDD](https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan)
+
 ## Conceptos
 
 ### Dato
@@ -23,11 +27,17 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 
 ![Modelo base de datos relacional](https://github.com/webferrol/ddbb_sessions/assets/35032717/c0a86f4c-e4e9-43a1-82ee-b0bec8431647)
 
-## Classroom
+## Modelos de <abbr title="Base de Datos">BBDD</abbr>
+1. Modelo de Archivos planos
+    - Difíciles de manejar
+2. Modelo jerárquico
+    - Tiene estructuras como *entidades*, *atributos* y *relaciones*
+3. Modelo de redes
+    - Grafos
+4. Modelo relacional
+    - Una revolución
 
-☑️ [BBDD](https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan)
-
-## Otros enlaces de intereses
+## Enlaces de intereses
 
 ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)
 

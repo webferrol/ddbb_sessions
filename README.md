@@ -6,12 +6,20 @@
 
 **Representación simbólica** de un *atributo* o *variable* cuantitiva o cualificada.
 
-Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelevante, incomprensible y no contiene información
+Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelevante, incomprensible y no contiene información.
 
-### <abbr title="Base de datos">BBDD</abbr>
+### Base de datos (<abbr title="Base de datos">BBDD</abbr>)
 
-**Colección** de *datos informativos* **organizados** en un mismo contexto para su
-uso y vinculación
+**Colección** de *datos informativos* **organizados** en un mismo contexto para su uso y vinculación.
+
+### Modelo de datos o conceptual
+
+**Lenguaje de modelado** para la definición de **esquemas**.
+
+<dl>
+  <dt>Esquema</dt>
+  <dd>Representación Gráfica o Simbólica de cosas materiales o inmateriales.
+</dl>
 
 
 ## Classroom

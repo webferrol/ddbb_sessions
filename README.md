@@ -21,6 +21,7 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
   <dd>Representación Gráfica o Simbólica de cosas materiales o inmateriales.
 </dl>
 
+![Modelo base de datos relacional](https://github.com/webferrol/ddbb_sessions/assets/35032717/c0a86f4c-e4e9-43a1-82ee-b0bec8431647)
 
 ## Classroom
 

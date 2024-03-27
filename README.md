@@ -28,14 +28,14 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 ![Modelo base de datos relacional](https://github.com/webferrol/ddbb_sessions/assets/35032717/c0a86f4c-e4e9-43a1-82ee-b0bec8431647)
 
 ## Modelos de <abbr title="Base de Datos">BBDD</abbr>
-1. Modelo de Archivos planos
+1. **Modelo de archivos planos**
     - Difíciles de manejar
-2. Modelo jerárquico
+2. **Modelo jerárquico**
     - Tiene estructuras como *entidades*, *atributos* y *relaciones*
-3. Modelo de redes
+3. **Modelo de redes**
     - Grafos
-4. Modelo relacional
-    - Una revolución
+4. **Modelo relacional**
+    - Teoría de los conjuntos, álgebra relacional, relaciones, tuplas, lenguaje de alto nivel ...
 
 ## Enlaces de intereses
 

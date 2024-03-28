@@ -1,6 +1,6 @@
 # :cd: Modelo relacional
 
-# Introducción
+## Introducción
 
 - ☑️ Creado por Edgar F. Codd (1969)
 - ☑️ Basado en la Teoría de Conjuntos
@@ -12,3 +12,9 @@
 - ☑️ Tratamiento de la Derivabilidad, Redundancia y Consistencia de las
 Relaciones
 - ☑️ Evaluación de Limitaciones y Bondades de los Sistemas de Información
+
+## ¿Qué es una <abbr title="Base de Datos">BBDD</abbr> en el modelo relacional?
+
+En el **modelo relacional** una <abbr title="Base de Datos">BBDD</abbr> es un **conjunto de relaciones**. Una **relación** es un conjunto de **tuplas** y una **tupla** es un conjunto de **atributos**.
+
+![Diagrama de un BBDD en el modelo relacional](https://github.com/webferrol/ddbb_sessions/assets/35032717/9b03e1c9-3e13-4e8f-8d72-2abb14f3f725)

@@ -35,3 +35,31 @@ Existen dos tipos:
 Y recuerda:
 
 >Pensar en grande cuesta lo mismo que pensar en pequeño.
+
+## Derivalidad, redundancia y consistencia de las relaciones
+
+<dl>
+  <dt>☑️ Dervivalidad</dt>
+  <dd>Una relación es derivable SI PODEMOS
+OBTENER SUS ATRIBUTOS DE OTRA PARTE.</dd>
+  <dt>☑️ Redundancia</dt>
+  <dd>Datos que se repiten. Puede haber una <strong>redundancia fuerte</strong> o una <strong>redundacia débil</strong>. Esta última es la necesaria.</dd>
+  <dt>☑️ Consistencia</dt>
+  <dd>Durabilidad, estabilidad y veracidad de los datos. Esto es la <strong>calidad de los datos</strong>.</dd>
+</dl>
+
+## Identificación inequívoca de los datos
+
+El **atributo** o **atributos** que identifica o indentifican de manera inequívoca a otros datos se conoce como **llave**. También recibe nombres como **llave primaria**, **clave primaria**, **primary key** (PK).
+
+Puenden ser de dos tipos:
+
+- ☑️ Llave natural
+  - Llave/clave relacionada con los demás atributos
+  Ej: DNI
+- ☑️ Llave suplente cuando la llave natural
+  - ☑️ No existe
+  - ☑️ No se conoce
+  - ☑️ Puede cambiar
+  - ☑️ Es muy grande
+  - ☑️ Puede quedar invalidada

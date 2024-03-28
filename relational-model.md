@@ -18,3 +18,20 @@ Relaciones
 En el **modelo relacional** una <abbr title="Base de Datos">BBDD</abbr> es un **conjunto de relaciones**. Una **relación** es un conjunto de **tuplas** y una **tupla** es un conjunto de **atributos**.
 
 ![Diagrama de un BBDD en el modelo relacional](https://github.com/webferrol/ddbb_sessions/assets/35032717/9b03e1c9-3e13-4e8f-8d72-2abb14f3f725)
+
+Cuando vemos las relaciones en una <abbr title="Base de Datos">BBDD</abbr>, éstas nos las presentan como tablas o matrices lo que nos crea una falsa impresión de orden.
+
+## Atributos
+
+Existen dos tipos:
+
+1. Atómicos
+2. No atómicos
+
+¿Cuando descomponer o dividir los atributos? Depende de las reglas del negocio.
+
+  ⚠️ Atómico no quiere decir crear el atributo más pequeño que se pueda si no el más pequeño de acuerdo con las reglas que se requieran.
+
+Y recuerda:
+
+>Pensar en grande cuesta lo mismo que pensar en pequeño.

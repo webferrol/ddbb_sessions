@@ -40,7 +40,7 @@ Y recuerda:
 
 <dl>
   <dt>☑️ Dervivalidad</dt>
-  <dd>Una relación es derivable SI PODEMOS OBTENER SUS ATRIBUTOS DE OTRA PARTE. <img alt="Derivalidad" width="787" height="284" style="max-width=100%; object-fit: contain;" src="https://github.com/webferrol/ddbb_sessions/assets/35032717/ea0be654-eb1a-4a36-975d-bd3640d9aaa4" ></dd>
+  <dd>Una relación es derivable SI PODEMOS OBTENER SUS ATRIBUTOS DE OTRA PARTE. <img alt="Derivalidad" width="787" height="284" src="https://github.com/webferrol/ddbb_sessions/assets/35032717/ea0be654-eb1a-4a36-975d-bd3640d9aaa4" ></dd>
   <dt>☑️ Redundancia</dt>
   <dd>Datos que se repiten. Puede haber una <strong>redundancia fuerte</strong> o una <strong>redundacia débil</strong>. Esta última no es mala.</dd>
   <dt>☑️ Consistencia</dt>

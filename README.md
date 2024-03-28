@@ -34,9 +34,13 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
     - Tiene estructuras como *entidades*, *atributos* y *relaciones*
 3. **Modelo de redes**
     - Grafos
-4. [**Modelo relacional**](./relational-model.md)
+4. **Modelo relacional**
     - Teoría de los conjuntos, álgebra relacional, relaciones, tuplas, lenguaje de alto nivel ...
 
+## Modelo relacional
+
+- [Introducción](./relational-model.md)
+- [Álgebra relacional](./algebra-relacional.md)
 
 
 ## Enlaces de intereses

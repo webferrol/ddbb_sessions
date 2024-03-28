@@ -16,4 +16,4 @@ Tambíen veremos más adelante que las **tuplas** se organizan en **relaciones**
   Elementos que están en A o en B, pero no en los dos conjuntos
 - ☑️ Producto cartesiano <code>A x B</code>
 
-![venn-diagrams](https://github.com/webferrol/ddbb_sessions/assets/35032717/6ab31558-1c3b-4db0-93a4-21e699ed6bdb)
+![Operaciones sobre conjuntos](https://github.com/webferrol/ddbb_sessions/assets/35032717/6846810e-8c2a-4896-9c70-07262317b91d)

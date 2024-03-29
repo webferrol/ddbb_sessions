@@ -17,3 +17,16 @@ Tambíen veremos más adelante que las **tuplas** se organizan en **relaciones**
 - ☑️ Producto cartesiano <code>A x B</code>
 
 ![Operaciones sobre conjuntos](https://github.com/webferrol/ddbb_sessions/assets/35032717/6846810e-8c2a-4896-9c70-07262317b91d)
+
+## Operaciones de subconjuntos
+
+- ☑️ A ⊆ B
+  A = B
+- ☑️ Subconjunto propio: <code>A ⊊ B</code>
+
+## Operaciones sobre relaciones
+
+- ☑️ Selección: <code>σ<sub>c</sub></code>
+- ☑️ Permutación: número!
+- ☑️ Proyección: <code>Π<sub>atr1, atr2, atr...</sub></code>
+- ☑️ Unión natural: <code>⋈</code>

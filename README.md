@@ -41,6 +41,7 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 
 - [Introducción](./relational-model.md)
 - [Álgebra relacional](./algebra-relacional.md)
+- [Dependencias funcionales](./depnendencias-funcionales.md)
 
 
 ## Enlaces de intereses

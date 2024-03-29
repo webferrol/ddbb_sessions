@@ -1,4 +1,4 @@
-# Álgebra relacional
+# [:back:](/) Álgebra relacional
 
 Hemos visto que los datos están almacenadas en tuplas. Las tuplas no son más que conjuntos y por tanto se les puede realizar operaciones de la **teoría de los conjuntos**.
 

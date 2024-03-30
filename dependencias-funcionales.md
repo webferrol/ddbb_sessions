@@ -59,7 +59,7 @@ Entonces:
 
 A &#10132; B
 
-## Cierre de α
+## Cierre de α (α<sup>+</sup>)
 
 α es un conjunto de atributos de la R
 
@@ -122,7 +122,7 @@ Entonces vamos a decir que A es una llave candidata pero AE no lo es; no es lóg
 
 Veamos una relación con varias llaves candidatas. 
 
-foto
+![Super llaves de la relación Persona](https://github.com/webferrol/ddbb_sessions/assets/35032717/b1ecc31b-442b-46f5-87d9-c330dbf6852d)
 
 En esta **relación Persona** podemos identificar las súper llaves: 
 

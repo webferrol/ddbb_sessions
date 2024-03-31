@@ -65,7 +65,7 @@ A &#10132; B
 
 F es un conjunto de **Dependencias funcionales** de esta misma relación
 
-¿Cuál es el mayor conjunto de atributo de R que podemos **encontrar** conociendo el valor de α?
+¿Cuál es el mayor conjunto de atributos de R que podemos **encontrar** conociendo el valor de α?
 
 A este conjunto lo vamos a llamar **cierre de α bajo F** o, simplificando, **cierre de α**. Se denota como <code>α<sup>+</sup></code>
 

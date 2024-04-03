@@ -1,4 +1,4 @@
-# Base de datos
+# <img src="https://github.com/webferrol/ddbb_sessions/assets/35032717/074eaa75-7314-4fb9-b3f4-62269f839235" width="24" alt="Sesión sobre"> Base de datos
 
 ## Classroom
 

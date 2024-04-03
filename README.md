@@ -44,6 +44,21 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 - [Dependencias funcionales](./dependencias-funcionales.md)
 - [Base canónica](./base-canonica.md)
 
+## Normalización
+
+1. **Primera Forma normal**:
+   La Forma de Los Grupos Repetitivos
+3. **Segunda Forma normal**:
+   Forma de la Dependencia Funcional completa
+5. **Tercera Forma normal**:
+   La **dependencia transitiva** ocurre cuando **una columna depende de otra que a su vez no es una clave principal**.
+  Consideremos los siguientes campos para una librería:
+  - ID_PEDIDO
+  - TITULO_LIBRO
+  - AUTOR_LIBRO
+  - EDITORIAL_LIBRO.
+    
+  El campo, ID_PEDIDO depende directamente de TITULO_LIBRO, dado que cada pedido está asociado a un título de libro específico. Sin embargo, tanto AUTOR_LIBRO como EDITORIAL_LIBRO dependen indirectamente de ID_Pedido a través de su dependencia con TITULO_LIBRO, puesto que cada libro (identificado por su título) está vinculado a un único autor y a una única editorial. Esta cadena de dependencias muestra que AUTOR_LIBRO y EDITORIAL_LIBRO tienen una dependencia transitiva respecto a ID_PEDIDO a través de TITULO_LIBRO.
 
 ## Enlaces de intereses
 

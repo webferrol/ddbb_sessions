@@ -2,16 +2,23 @@
 
 Recordemos
 
-## Primera forma normal
+## Primera forma normal (1FN)
 
-- ✔️ No debe haber tuplas repetidas
-- ✔️ No debe importar el orden de las tuplas
-- ✔️ Existencia de una Llave Primaria
-- ✔️ Atributos atómicos
+- ✔️ No debe haber tuplas repetidas.
+- ✔️ No debe importar el orden de las tuplas.
+- ✔️ Existencia de una Llave Primaria.
+- ✔️ Atributos atómicos.
 
 ⚠️ Aunque estas características ya vimos que está impuestas por el propio modelo relacional
 
 >**La Forma de Los Grupos Repetitivos**: Una Relación está en Primera Forma Normal (1NF) si, y sólo si, no tiene **Grupos Repetitivos**
+
+## Segunda forma normal (2FN)
+
+- ✔️ Cumple con las reglas de 1FN.
+- ✔️ Todos los atributos que no forman parte de la **Clave Principal** tienen **dependencia funcional completa** de ella. Dicho de otra forma: No debe haber dependencias parciales de ninguna **clave candidata** en ninguna columna no clave.
+
+>**Forma de la Dependencia Funcional completa**: Ningún atributo depende únicamente de una parte de la Llave Primaria.
 
 ## Ejercicios de normalización
 

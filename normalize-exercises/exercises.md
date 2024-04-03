@@ -39,3 +39,12 @@ Recordemos
 | 2 | 18075847-K | Brenda | 211-02 |	211-02 | 211-03 |
 | 3 | 17016778-3 | Luis	 | 311-02 |	311-02 | 311-03 |
 | 4 | 21616330-3 | Flor	 | 411-02 |	411-02 | 411-03 |
+
+### Ejercicio 3
+
+| id_pedido | titulo_libro | autor | editorial |
+| ----------| ------------ | ----- | --------- |
+| 1 | El Cid Campeador | Anómimo | Anaya |
+| 2 | Don Quijote de la Mancha | Miguel de Cervantes | Anaya |
+| 3 | La Odisea | Homero | Oxford Editorial |
+| 4 | As Metamorfoses | Ovidio | Edicións Xerais |

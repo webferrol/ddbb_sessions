@@ -15,10 +15,19 @@ Recordemos
 
 ## Segunda forma normal (2FN)
 
-- ✔️ Cumple con las reglas de 1FN.
+- ✔️ Cumple con las reglas de la 1FN.
 - ✔️ Todos los atributos que no forman parte de la **Clave Principal** tienen **dependencia funcional completa** de ella. Dicho de otra forma: No debe haber dependencias parciales de ninguna **clave candidata** en ninguna columna no clave.
 
 >**Forma de la Dependencia Funcional completa**: Ningún atributo depende únicamente de una parte de la Llave Primaria.
+
+## Tercera forma normal (3FN)
+
+- ✔️ Cumple con las reglas de la 2FN.
+- ✔️ Ningún atributo “no primo” depende funcionalmente de otro atributo “no primo”
+
+ℹ️ **Atributo primo**: aquel que forma parte de la clave primaria.
+
+>La dependencia transitiva ocurre cuando una columna depende de otra que a su vez no es una clave principal.
 
 ## Ejercicios de normalización
 

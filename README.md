@@ -2,7 +2,7 @@
 
 ## Classroom
 
-☑️ [BBDD](https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan)
+☑️ [BBDD]([https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan](https://github.com/webferrol/ddbb_sessions/assets/35032717/26a0155a-db5d-43d3-bb76-b22d5d391842))
 
 ## Conceptos
 

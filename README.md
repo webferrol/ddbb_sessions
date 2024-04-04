@@ -1,8 +1,8 @@
-# <img src="https://github.com/webferrol/ddbb_sessions/assets/35032717/074eaa75-7314-4fb9-b3f4-62269f839235" width="24" alt="Sesión sobre"> Base de datos
+# <img src="https://github.com/webferrol/ddbb_sessions/assets/35032717/ae35f1a1-9575-4107-aedb-4303aebcf82f" width="24" alt="Sesión sobre"> Base de datos
 
-## Classroom
+## <img src="https://github.com/webferrol/ddbb_sessions/assets/35032717/9167d33e-5c58-48a6-b2a2-2501fa456ff7" width="24" alt="Invitación a "> Classroom
 
-☑️ [BBDD]([https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan](https://github.com/webferrol/ddbb_sessions/assets/35032717/26a0155a-db5d-43d3-bb76-b22d5d391842))
+☑️ Invitación a [classroom](https://classroom.google.com/c/NjA1NzIyNDc3MzUx?cjc=hugqvan)
 
 ## Conceptos
 

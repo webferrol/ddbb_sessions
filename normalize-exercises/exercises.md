@@ -42,7 +42,7 @@ Recordemos
 
 ### Ejercicio 2
 
-| #id_estudiante | dni | tutor | clase1 | clase2 | clase3 |
+| #id_estudiante | dni_tutor | tutor | clase1 | clase2 | clase3 |
 | ------------- | --- | ----- | ---- | ------ | ------ |
 | 1 | 20286841-K | Jorge | 111-01 |	111-02 | 111-03 |
 | 2 | 18075847-K | Brenda | 211-01 |	211-02 | 211-03 |

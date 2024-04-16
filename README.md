@@ -60,6 +60,11 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
     
   El campo, ID_PEDIDO depende directamente de TITULO_LIBRO, dado que cada pedido está asociado a un título de libro específico. Sin embargo, tanto AUTOR_LIBRO como EDITORIAL_LIBRO dependen indirectamente de ID_Pedido a través de su dependencia con TITULO_LIBRO, puesto que cada libro (identificado por su título) está vinculado a un único autor y a una única editorial. Esta cadena de dependencias muestra que AUTOR_LIBRO y EDITORIAL_LIBRO tienen una dependencia transitiva respecto a ID_PEDIDO a través de TITULO_LIBRO.
 
+## Entidad/Relación
+
+>Tenemos una tienda en línea que vende productos de varios tipos. Cada producto tiene un nombre, una descripción y un precio. Los productos están organizados en categorías, y cada categoría tiene varios productos. 
+Los clientes pueden realizar pedidos, que incluyen uno o varios productos. Como siempre primero identificamos las entidades.
+
 ## Enlaces de intereses
 
 ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)

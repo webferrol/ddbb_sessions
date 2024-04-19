@@ -51,7 +51,7 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 3. **Segunda Forma normal**:
    Forma de la Dependencia Funcional completa
 5. **Tercera Forma normal**:
-   La **dependencia transitiva** ocurre cuando **una columna depende de otra que a su vez no es una clave principal**.
+   **Un atributo** no primo no depende transitivamente de una **clave candidata**.
   Consideremos los siguientes campos para una librería:
   - ID_PEDIDO
   - TITULO_LIBRO

@@ -62,9 +62,11 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 
 ## Entidad/Relación (modelo lógico)
 
-  Se puede definir una **entidad** como cualquier objeto (real o abstracto) que existe en lo realidad y acerca del cual queremos almacenar información en la base de datos. La estructura genérica que describe un conjunto de ejemplares aplicando la abstracción de lo clasificación se denomina **tipo de entidad** mientras que entidad es cada uno de los ejemplares.
-  Por ejemplo, CURSO es un **tipo de entidad** que describe las características comunes de un conjunto de cursos; un ejemplar del tipo de entidad CURSO sería "Diseño de Bases de Datos Relacionales". Otro **tipo de entidad** podría ser PROFESOR y un ejemplar del mismo sería Sr. Sánchez.
+### Entidad y tipo de entidad
 
+Se puede definir una **entidad** como cualquier objeto (real o abstracto) que existe en lo realidad y acerca del cual queremos almacenar información en la base de datos.
+
+>ℹ️ La estructura genérica que describe un **conjunto de ejemplares** aplicando la abstracción de lo clasificación se denomina **tipo de entidad** mientras que la **entidad** es **cada uno de los ejemplares**.
 
 ## Enlaces de intereses
 

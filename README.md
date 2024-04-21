@@ -37,7 +37,7 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
 4. **Modelo relacional**
     - Teoría de los conjuntos, álgebra relacional, relaciones, tuplas, lenguaje de alto nivel ...
 
-## Modelo relacional
+## Modelo relacional (modelo conceptual)
 
 - [Introducción](./relational-model.md)
 - [Álgebra relacional](./algebra-relacional.md)
@@ -60,10 +60,11 @@ Como representa una entidad, hecho o momento (sólo uno) aisladamente es irrelev
     
   El campo, ID_PEDIDO depende directamente de TITULO_LIBRO, dado que cada pedido está asociado a un título de libro específico. Sin embargo, tanto AUTOR_LIBRO como EDITORIAL_LIBRO dependen indirectamente de ID_Pedido a través de su dependencia con TITULO_LIBRO, puesto que cada libro (identificado por su título) está vinculado a un único autor y a una única editorial. Esta cadena de dependencias muestra que AUTOR_LIBRO y EDITORIAL_LIBRO tienen una dependencia transitiva respecto a ID_PEDIDO a través de TITULO_LIBRO.
 
-## Entidad/Relación
+## Entidad/Relación (modelo lógico)
 
->Tenemos una tienda en línea que vende productos de varios tipos. Cada producto tiene un nombre, una descripción y un precio. Los productos están organizados en categorías, y cada categoría tiene varios productos. 
-Los clientes pueden realizar pedidos, que incluyen uno o varios productos. Como siempre primero identificamos las entidades.
+  Se puede definir una **entidad** como cualquier objeto (real o abstracto) que existe en lo realidad y acerca del cual queremos almacenar información en la base de datos. La estructura genérica que describe un conjunto de ejemplares aplicando la abstracción de lo clasificación se denomina **tipo de entidad** mientras que entidad es cada uno de los ejemplares.
+  Por ejemplo, CURSO es un **tipo de entidad** que describe las características comunes de un conjunto de cursos; un ejemplar del tipo de entidad CURSO sería "Diseño de Bases de Datos Relacionales". Otro **tipo de entidad** podría ser PROFESOR y un ejemplar del mismo sería Sr. Sánchez.
+
 
 ## Enlaces de intereses
 

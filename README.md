@@ -70,6 +70,37 @@ Se puede definir una **entidad** como cualquier objeto (real o abstracto) que ex
 
 ![entity-relationship](https://github.com/webferrol/ddbb_sessions/assets/35032717/1b92ede6-ec40-43bb-891b-623e0a36502e)
 
+## Nivel físico
+
+### XAMPP
+
+#### IDES o interfaces
+
+1. Navegador: PHPMYADMIN
+2. [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)
+
+    >mysql -h nombre_servidor -u nombre_usuario -p
+
+    ```cmd
+    mysql -h localhost -u root -p
+    ```
+3. [DBeaver](https://dbeaver.io/)
+4. [MySQL Workbench](https://www.mysql.com/products/workbench/)
+5. [Navicat](https://www.navicat.com/es)
+
+### SQL
+
+#### Comandos básicos
+
+- ☑️ DDL (Data Definition Language)
+- ☑️ DQL (Data Query Language)
+- ☑️ DML(Data Manipulation Language)
+- ☑️ DCL (Data Control Language)
+- ☑️ TCL (Transaction Control Language)
+
+[![Comandos básicos: DDL, DQL, DML](./assets/comandos-basicos.png)](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
+
+
 ## Enlaces de intereses
 
 ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)

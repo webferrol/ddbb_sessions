@@ -83,6 +83,9 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 ### Comandos básicos
 
 - ☑️ DDL (Data Definition Language)
+  
+  DDL es un conjunto de comandos SQL utilizados para **crear**, **modificar** y **eliminar** *estructuras de bases de datos*, pero no los datos propios.
+  
 - ☑️ DQL (Data Query Language)
 - ☑️ DML(Data Manipulation Language)
 - ☑️ DCL (Data Control Language)

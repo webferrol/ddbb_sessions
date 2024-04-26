@@ -72,25 +72,15 @@ Se puede definir una **entidad** como cualquier objeto (real o abstracto) que ex
 
 ## Nivel físico
 
-### XAMPP
+### <abbr title="Structured Query Language">SQL</abbr>
 
-#### IDES o interfaces
+Una de las características que *Edgar Frank Codd* destaca en el modelo **modelo conceptual** es que éste: 
 
-1. Navegador: PHPMYADMIN
-2. [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)
+>ℹ️ Provee las bases para un lenguaje de consulta de alto nivel. Por tanto se debe brindar independencia de la estructura de los datos en la máquina.
 
-    >mysql -h nombre_servidor -u nombre_usuario -p
+En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 
-    ```cmd
-    mysql -h localhost -u root -p
-    ```
-3. [DBeaver](https://dbeaver.io/)
-4. [MySQL Workbench](https://www.mysql.com/products/workbench/)
-5. [Navicat](https://www.navicat.com/es)
-
-### SQL
-
-#### Comandos básicos
+### Comandos básicos
 
 - ☑️ DDL (Data Definition Language)
 - ☑️ DQL (Data Query Language)
@@ -103,6 +93,10 @@ Se puede definir una **entidad** como cualquier objeto (real o abstracto) que ex
 
 ## Enlaces de intereses
 
-☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)
+- ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)
+- ☑️ [mysql +node + typescript +  crud](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3nKe-CHNQ5jwJ5V4SR77yd)
+- ☑️ [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)
+- ☑️ [Gestor de BBDD: DBeaver](https://dbeaver.io/)
+- ☑️ [Gestor de BBDD: MySQL Workbench](https://www.mysql.com/products/workbench/)
+- ☑️ [Gestor de BBDD: Navicat](https://www.navicat.com/es)
 
-☑️ [mysql +node + typescript +  crud](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3nKe-CHNQ5jwJ5V4SR77yd)

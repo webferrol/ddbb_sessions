@@ -72,7 +72,7 @@ Se puede definir una **entidad** como cualquier objeto (real o abstracto) que ex
 
 ## Nivel físico
 
-### <abbr title="Structured Query Language">SQL</abbr>
+### <abbr title="Structured Query Language">SQL</abbr>. Structured Query Languaje - Lenguaje de Consultas Estructurado
 
 Una de las características que *Edgar Frank Codd* destaca en el modelo **modelo conceptual** es que éste: 
 

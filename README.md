@@ -70,9 +70,13 @@ Se puede definir una **entidad** como cualquier objeto (real o abstracto) que ex
 
 ![entity-relationship](https://github.com/webferrol/ddbb_sessions/assets/35032717/1b92ede6-ec40-43bb-891b-623e0a36502e)
 
+### Programas para diagramar
+
+- ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)
+
 ## Nivel físico
 
-### <abbr title="Structured Query Language">SQL</abbr>. Structured Query Languaje - Lenguaje de Consultas Estructurado
+### <abbr title="Structured Query Language">SQL</abbr>
 
 Una de las características que *Edgar Frank Codd* destaca en el modelo **modelo conceptual** es que éste: 
 
@@ -84,25 +88,33 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 
 - ☑️ DDL (Data Definition Language)
   
-    <abbr title="Data Definition Language">DDL</abbr> es un conjunto de comandos SQL utilizados para **crear**, **modificar** y **eliminar** *estructuras de bases de datos*, pero no los datos propios.
+    <abbr title="Data Definition Language">DDL</abbr> es un conjunto de comandos <abbr title="Structured Query Language">SQL</abbr> utilizados para **crear**, **modificar** y **eliminar** *estructuras de bases de datos*, pero no los datos propios.
   
 - ☑️ DQL (Data Query Language)
+
+    Las declaraciones <abbr title="Data Query Language">DQL</abbr> se utilizan para realizar consultas sobre los datos dentro de los objetos del esquema.
+
 - ☑️ DML(Data Manipulation Language)
+
+    <abbr title="Data Manipulation Language">DML</abbr> Los comandos <abbr title="Structured Query Language">SQL</abbr> que se ocupan de la manipulación de datos presentes en la base de datos pertenecen a **DML** o Data Manipulation Language y esto incluye la mayoría de las declaraciones <abbr title="Structured Query Language">SQL</abbr>.
+
 - ☑️ DCL (Data Control Language)
 
      <abbr title="Data Control Language">DCL</abbr> incluye comandos como **GRANT** y **REVOKE** que se ocupan principalmente de los **derechos**, **permisos** y otros controles del sistema de base de datos. 
 
 - ☑️ TCL (Transaction Control Language)
 
-[![Comandos básicos: DDL, DQL, DML](./assets/comandos-basicos.png)](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
+    Las transacciones (<abbr title="Transaction Control Language">TCL</abbr>) agrupan un conjunto de tareas en una sola unidad de ejecución. Cada transacción comienza con una tarea específica y termina cuando todas las tareas del grupo se completan con éxito.
 
+[![Comandos básicos: DDL, DQL, DML, DCL, TCL](./assets/comandos-basicos.png)](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
 
-## Enlaces de intereses
+### Programas gestores de BBDD
 
-- ☑️ [Para diagramar](https://www.drawio.com/blog/move-diagrams-net)
-- ☑️ [mysql +node + typescript +  crud](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3nKe-CHNQ5jwJ5V4SR77yd)
 - ☑️ [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)
 - ☑️ [Gestor de BBDD: DBeaver](https://dbeaver.io/)
 - ☑️ [Gestor de BBDD: MySQL Workbench](https://www.mysql.com/products/workbench/)
 - ☑️ [Gestor de BBDD: Navicat](https://www.navicat.com/es)
 
+## Enlaces de intereses
+
+- ☑️ [mysql +node + typescript +  crud](https://www.youtube.com/playlist?list=PLCKuOXG0bPi3nKe-CHNQ5jwJ5V4SR77yd)

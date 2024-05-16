@@ -108,6 +108,14 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 
 [![Comandos básicos: DDL, DQL, DML, DCL, TCL](./assets/comandos-basicos.png)](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
 
+### Comandos para sacarnos de apuros
+
+#### Para obtener información de las tablas entre otras cosas ver los nombres de las "constraints" o restricciones
+
+```sql
+show create table nombre_tabla;
+```
+
 ### Programas gestores de BBDD
 
 - ☑️ [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)

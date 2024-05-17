@@ -113,7 +113,7 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 #### Para obtener información de las tablas entre otras cosas ver los nombres de las "constraints" o restricciones
 
 ```sql
-show create table nombre_tabla;
+SHOW CREATE TABLE nombre_tabla;
 ```
 
 ### Funciones
@@ -142,6 +142,16 @@ show create table nombre_tabla;
 SELECT COALESCE(nombre, apodo, 'Desconocido') FROM usuarios;
 ```
 En este ejemplo, se devuelve el primer valor no nulo entre `nombre`, `apodo` y 'Desconocido'. Si `nombre` es `NULL`, se evalúa `apodo`; si ambos son `NULL`, se devuelve 'Desconocido'.
+
+#### `YEAR`
+
+se utiliza para extraer el año de una fecha dada.
+
+**Obtener el año de una fecha específica**:
+
+```sql
+SELECT YEAR('2024-05-17') AS year;
+```
 
 ### Programas gestores de BBDD
 

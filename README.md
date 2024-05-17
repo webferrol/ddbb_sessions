@@ -153,6 +153,46 @@ se utiliza para extraer el año de una fecha dada.
 SELECT YEAR('2024-05-17') AS year;
 ```
 
+#### `COUNT`
+
+en SQL se utiliza para contar el número de filas en un conjunto de resultados que cumplen con una condición específica. Es una de las funciones de agregación más comunes y útiles en SQL.
+
+##### Parámetros
+
+- **expression**: Puede ser una columna específica o un asterisco (`*`). 
+  - `COUNT(*)`: Cuenta todas las filas en el conjunto de resultados.
+  - `COUNT(column_name)`: Cuenta las filas en las que `column_name` no es `NULL`.
+  - `COUNT(DISTINCT column_name)`: Cuenta las filas únicas en las que `column_name` no es `NULL`.
+
+**Contar todas las filas de una tabla**:
+```sql
+ SELECT COUNT(*) AS total_filas FROM empleados;
+ ```
+ 
+Este ejemplo cuenta todas las filas de la tabla `empleados`.
+
+**Contar las filas que no tienen valores nulos en una columna específica**:
+
+```sql
+SELECT COUNT(email) AS total_emails FROM usuarios;
+```
+Este ejemplo cuenta las filas de la tabla `usuarios` donde la columna `email` no es `NULL`.
+
+**Contar filas con valores distintos en una columna**:
+
+```sql
+SELECT COUNT(DISTINCT departamento) AS departamentos_unicos FROM empleados;
+```
+Este ejemplo cuenta el número de valores únicos en la columna `departamento` de la tabla `empleados`.
+
+##### Consideraciones
+
+- `COUNT(*)` es generalmente más rápido que `COUNT(column_name)` porque no necesita verificar si los valores son `NULL`.
+- `COUNT(column_name)` es útil cuando necesitas contar solo las filas donde la columna específica no es `NULL`.
+- `COUNT(DISTINCT column_name)` es útil para contar valores únicos en una columna, ignorando duplicados y `NULL`.
+
+En resumen, la función `COUNT` es extremadamente versátil y esencial para realizar análisis de datos y generar reportes en SQL.
+
 ### Programas gestores de BBDD
 
 - ☑️ [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)

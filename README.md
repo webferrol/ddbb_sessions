@@ -116,6 +116,33 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 show create table nombre_tabla;
 ```
 
+### Funciones
+
+#### `IFNULL`
+
+- **Sintaxis**: `IFNULL(expr1, expr2)`
+- **Propósito**: Devuelve `expr2` si `expr1` es `NULL`; de lo contrario, devuelve `expr1`.
+- **Compatibilidad**: Esta función es específica de MySQL.
+- **Número de argumentos**: Acepta exactamente dos argumentos.
+
+ ```sql
+ SELECT IFNULL(nombre, 'Desconocido') FROM usuarios;
+ ```
+  
+ En este ejemplo, si el valor de `nombre` es `NULL`, se devuelve 'Desconocido'; de lo contrario, se devuelve el valor de `nombre`.
+
+#### `COALESCE`
+
+- **Sintaxis**: `COALESCE(expr1, expr2, ..., exprN)`
+- **Propósito**: Devuelve el primer valor no nulo en la lista de expresiones.
+- **Compatibilidad**: Esta función es parte del estándar SQL y es compatible con la mayoría de las bases de datos (MySQL, PostgreSQL, SQL Server, Oracle, etc.).
+- **Número de argumentos**: Puede aceptar dos o más argumentos.
+
+```sql
+SELECT COALESCE(nombre, apodo, 'Desconocido') FROM usuarios;
+```
+En este ejemplo, se devuelve el primer valor no nulo entre `nombre`, `apodo` y 'Desconocido'. Si `nombre` es `NULL`, se evalúa `apodo`; si ambos son `NULL`, se devuelve 'Desconocido'.
+
 ### Programas gestores de BBDD
 
 - ☑️ [Línea de comandos](https://desarrolloweb.com/articulos/2408.php)

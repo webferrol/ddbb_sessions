@@ -157,6 +157,60 @@ SELECT YEAR('2024-05-17') AS year;
 
 Devuelve al fecha actual
 
+#### `SUBDATE` 
+
+En MySQL se utiliza para restar un intervalo de tiempo a una fecha. Esta función puede tomar dos formas principales: restar un número de días o restar un intervalo específico. A continuación, se muestran ejemplos de ambas formas:
+
+1. Restar un número de días de una fecha
+
+```sql
+SELECT SUBDATE('2024-05-19', 10) AS fecha_menos_diez_dias;
+```
+
+En este ejemplo, se resta 10 días de la fecha '2024-05-19'. El resultado será '2024-05-09'.
+
+2. Restar un intervalo específico de una fecha
+
+Puedes restar un intervalo de tiempo específico utilizando la función `INTERVAL`. Los intervalos pueden ser días, meses, años, horas, minutos, segundos, etc.
+
+2.1. Ejemplo de restar días:
+
+```sql
+SELECT SUBDATE('2024-05-19', INTERVAL 10 DAY) AS fecha_menos_diez_dias;
+```
+
+Este ejemplo también resta 10 días de la fecha '2024-05-19'. El resultado será '2024-05-09'.
+
+2.2 Ejemplo de restar meses:
+
+```sql
+SELECT SUBDATE('2024-05-19', INTERVAL 2 MONTH) AS fecha_menos_dos_meses;
+```
+
+Este ejemplo resta 2 meses de la fecha '2024-05-19'. El resultado será '2024-03-19'.
+
+2.3 Ejemplo de restar años:
+
+```sql
+SELECT SUBDATE('2024-05-19', INTERVAL 1 YEAR) AS fecha_menos_un_año;
+```
+
+Este ejemplo resta 1 año de la fecha '2024-05-19'. El resultado será '2023-05-19'.
+
+2.4 Ejemplo práctico en una tabla
+
+Supongamos que tienes una tabla `eventos` con una columna `fecha_evento` y quieres seleccionar todas las filas donde la fecha del evento sea al menos 30 días antes de hoy.
+
+```sql
+SELECT *
+FROM eventos
+WHERE fecha_evento <= SUBDATE(CURDATE(), INTERVAL 30 DAY);
+```
+
+En este ejemplo, `CURDATE()` devuelve la fecha actual, y `SUBDATE(CURDATE(), INTERVAL 30 DAY)` devuelve la fecha actual menos 30 días. La consulta selecciona todos los eventos que ocurrieron hace 30 días o más.
+
+Estos ejemplos demuestran cómo se puede utilizar la función `SUBDATE` en MySQL para restar intervalos de tiempo de fechas.
+
 #### `COUNT`
 
 en SQL se utiliza para contar el número de filas en un conjunto de resultados que cumplen con una condición específica. Es una de las funciones de agregación más comunes y útiles en SQL.

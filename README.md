@@ -189,11 +189,11 @@ Este ejemplo también resta 10 días de la fecha '2024-05-19'. El resultado ser�
 
 Este ejemplo resta 2 meses de la fecha '2024-05-19'. El resultado será '2024-03-19'.
 
-2.3 Ejemplo de restar años:
-
-```sql
-SELECT SUBDATE('2024-05-19', INTERVAL 1 YEAR) AS fecha_menos_un_año;
-```
+  - Ejemplo de restar años:
+  
+  ```sql
+  SELECT SUBDATE('2024-05-19', INTERVAL 1 YEAR) AS fecha_menos_un_año;
+  ```
 
 Este ejemplo resta 1 año de la fecha '2024-05-19'. El resultado será '2023-05-19'.
 

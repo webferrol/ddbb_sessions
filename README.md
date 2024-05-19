@@ -173,19 +173,19 @@ En este ejemplo, se resta 10 días de la fecha '2024-05-19'. El resultado será 
 
 Puedes restar un intervalo de tiempo específico utilizando la función `INTERVAL`. Los intervalos pueden ser días, meses, años, horas, minutos, segundos, etc.
 
-2.1. Ejemplo de restar días:
+  - Ejemplo de restar días:
 
-```sql
-SELECT SUBDATE('2024-05-19', INTERVAL 10 DAY) AS fecha_menos_diez_dias;
-```
+  ```sql
+  SELECT SUBDATE('2024-05-19', INTERVAL 10 DAY) AS fecha_menos_diez_dias;
+  ```
 
 Este ejemplo también resta 10 días de la fecha '2024-05-19'. El resultado será '2024-05-09'.
 
-2.2 Ejemplo de restar meses:
+  - Ejemplo de restar meses:
 
-```sql
-SELECT SUBDATE('2024-05-19', INTERVAL 2 MONTH) AS fecha_menos_dos_meses;
-```
+  ```sql
+  SELECT SUBDATE('2024-05-19', INTERVAL 2 MONTH) AS fecha_menos_dos_meses;
+  ```
 
 Este ejemplo resta 2 meses de la fecha '2024-05-19'. El resultado será '2024-03-19'.
 
@@ -197,19 +197,59 @@ SELECT SUBDATE('2024-05-19', INTERVAL 1 YEAR) AS fecha_menos_un_año;
 
 Este ejemplo resta 1 año de la fecha '2024-05-19'. El resultado será '2023-05-19'.
 
-2.4 Ejemplo práctico en una tabla
+  - Ejemplo práctico en una tabla
 
-Supongamos que tienes una tabla `eventos` con una columna `fecha_evento` y quieres seleccionar todas las filas donde la fecha del evento sea al menos 30 días antes de hoy.
+  Supongamos que tienes una tabla `eventos` con una columna `fecha_evento` y quieres seleccionar todas las filas donde la fecha del evento sea al menos 30 días antes de hoy.
 
-```sql
-SELECT *
-FROM eventos
-WHERE fecha_evento <= SUBDATE(CURDATE(), INTERVAL 30 DAY);
-```
+  ```sql
+  SELECT *
+  FROM eventos
+  WHERE fecha_evento <= SUBDATE(CURDATE(), INTERVAL 30 DAY);
+  ```
 
 En este ejemplo, `CURDATE()` devuelve la fecha actual, y `SUBDATE(CURDATE(), INTERVAL 30 DAY)` devuelve la fecha actual menos 30 días. La consulta selecciona todos los eventos que ocurrieron hace 30 días o más.
 
 Estos ejemplos demuestran cómo se puede utilizar la función `SUBDATE` en MySQL para restar intervalos de tiempo de fechas.
+
+#### `ADDDATE`
+
+La función `ADDDATE` en MySQL se utiliza para sumar un intervalo de tiempo a una fecha. Similar a `SUBDATE`, `ADDDATE` tiene dos formas principales: sumar un número de días o sumar un intervalo específico. A continuación se muestran ejemplos de ambas formas:
+
+### 1. Sumar un número de días a una fecha
+
+```sql
+SELECT ADDDATE('2024-05-19', 10) AS fecha_mas_diez_dias;
+```
+
+En este ejemplo, se suman 10 días a la fecha '2024-05-19'. El resultado será '2024-05-29'.
+
+### 2. Sumar un intervalo específico a una fecha
+
+Puedes sumar un intervalo de tiempo específico utilizando la función `INTERVAL`. Los intervalos pueden ser días, meses, años, horas, minutos, segundos, etc.
+
+  - Ejemplo de sumar días:
+
+  ```sql
+  SELECT ADDDATE('2024-05-19', INTERVAL 10 DAY) AS fecha_mas_diez_dias;
+  ```
+
+Este ejemplo también suma 10 días a la fecha '2024-05-19'. El resultado será '2024-05-29'.
+
+  - Ejemplo de sumar meses:
+  
+  ```sql
+  SELECT ADDDATE('2024-05-19', INTERVAL 2 MONTH) AS fecha_mas_dos_meses;
+  ```
+
+Este ejemplo suma 2 meses a la fecha '2024-05-19'. El resultado será '2024-07-19'.
+
+  -Ejemplo de sumar años:
+  
+  ```sql
+  SELECT ADDDATE('2024-05-19', INTERVAL 1 YEAR) AS fecha_mas_un_año;
+  ```
+
+Este ejemplo suma 1 año a la fecha '2024-05-19'. El resultado será '2025-05-19'.
 
 #### `COUNT`
 

@@ -153,6 +153,10 @@ se utiliza para extraer el año de una fecha dada.
 SELECT YEAR('2024-05-17') AS year;
 ```
 
+#### `CURDATE`
+
+Devuelve al fecha actual
+
 #### `COUNT`
 
 en SQL se utiliza para contar el número de filas en un conjunto de resultados que cumplen con una condición específica. Es una de las funciones de agregación más comunes y útiles en SQL.

@@ -116,6 +116,108 @@ En este nivel ya hablamos de <abbr title="Structured Query Language">SQL</abbr>
 SHOW CREATE TABLE nombre_tabla;
 ```
 
+### `BINARY`
+
+Usar la palabra clave `BINARY` en MySQL es útil para realizar búsquedas que distinguen entre mayúsculas y minúsculas. A continuación se presentan ejemplos detallados de cómo realizar búsquedas utilizando `BINARY` en diferentes contextos.
+
+#### Ejemplo 1: Comparación exacta
+
+Supongamos que tienes una tabla `usuarios` con una columna `nombre_usuario` y quieres seleccionar todos los registros donde `nombre_usuario` sea exactamente 'Admin', diferenciando entre mayúsculas y minúsculas.
+
+```sql
+SELECT *
+FROM usuarios
+WHERE BINARY nombre_usuario = 'Admin';
+```
+
+En este ejemplo, solo se seleccionarán los registros donde `nombre_usuario` sea exactamente 'Admin'. No se seleccionarán variantes como 'admin' o 'ADMIN'.
+
+#### Ejemplo 2: Uso de `LIKE` con comodines y `BINARY`
+
+Puedes combinar `BINARY` con `LIKE` para realizar búsquedas que respeten la distinción entre mayúsculas y minúsculas y que incluyan comodines.
+
+##### Buscar que comienza con un patrón específico
+
+```sql
+SELECT *
+FROM documentos
+WHERE BINARY titulo LIKE 'Report%';
+```
+
+Este ejemplo selecciona todos los registros donde el título comience exactamente con 'Report'. No se seleccionarán títulos que comiencen con 'report', 'REPORT', etc.
+
+##### Buscar que termina con un patrón específico
+
+```sql
+SELECT *
+FROM documentos
+WHERE BINARY titulo LIKE '%Report';
+```
+
+Este ejemplo selecciona todos los registros donde el título termine exactamente con 'Report', diferenciando entre mayúsculas y minúsculas.
+
+##### Buscar que contiene un patrón específico en cualquier posición
+
+```sql
+SELECT *
+FROM documentos
+WHERE BINARY titulo LIKE '%Report%';
+```
+
+Este ejemplo selecciona todos los registros donde el título contenga la palabra 'Report' en cualquier posición, respetando la distinción entre mayúsculas y minúsculas.
+
+### Ejemplo 3: Uso de `COLLATE`
+
+Además de `BINARY`, puedes usar la cláusula `COLLATE` para especificar un collation sensible a mayúsculas y minúsculas.
+
+#### Comparación exacta con `COLLATE`
+
+```sql
+SELECT *
+FROM usuarios
+WHERE nombre_usuario COLLATE utf8mb4_bin = 'Admin';
+```
+
+Este ejemplo realiza una comparación exacta entre `nombre_usuario` y 'Admin' usando el collation `utf8mb4_bin`, que es sensible a mayúsculas y minúsculas.
+
+#### Uso de `LIKE` con `COLLATE`
+
+```sql
+SELECT *
+FROM documentos
+WHERE titulo COLLATE utf8mb4_bin LIKE 'Report%';
+```
+
+Este ejemplo selecciona todos los registros donde el título comience con 'Report', diferenciando entre mayúsculas y minúsculas.
+
+### Ejemplo práctico: Tabla de productos
+
+Supongamos que tienes una tabla `productos` con una columna `nombre_producto` y quieres buscar todos los productos cuyo nombre contiene la palabra 'Especial', respetando la distinción entre mayúsculas y minúsculas.
+
+```sql
+SELECT *
+FROM productos
+WHERE BINARY nombre_producto LIKE '%Especial%';
+```
+
+En este ejemplo, solo se seleccionarán los productos cuyo `nombre_producto` contenga exactamente 'Especial', sin coincidir con variantes como 'especial' o 'ESPECIAL'.
+
+### Ejemplo práctico: Actualizar registros con comparación binaria
+
+También puedes usar `BINARY` en una cláusula `UPDATE` para asegurarte de que solo se actualicen los registros que coincidan exactamente.
+
+```sql
+UPDATE usuarios
+SET estado = 'activo'
+WHERE BINARY nombre_usuario = 'Admin';
+```
+
+Este ejemplo actualiza el estado a 'activo' solo para los usuarios cuyo `nombre_usuario` sea exactamente 'Admin'.
+
+### Resumen
+
+Usar `BINARY` en MySQL permite realizar comparaciones y búsquedas que distinguen entre mayúsculas y minúsculas, lo cual es útil en contextos donde la exactitud en la capitalización es importante. Puedes combinar `BINARY` con operadores como `=` y `LIKE` para lograr una variedad de búsquedas específicas. Además, la cláusula `COLLATE` ofrece otra forma de controlar la sensibilidad de las comparaciones a mayúsculas y minúsculas.
+
 ### Funciones
 
 #### `IFNULL`

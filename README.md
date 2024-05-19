@@ -166,58 +166,6 @@ WHERE BINARY titulo LIKE '%Report%';
 
 Este ejemplo selecciona todos los registros donde el título contenga la palabra 'Report' en cualquier posición, respetando la distinción entre mayúsculas y minúsculas.
 
-### Ejemplo 3: Uso de `COLLATE`
-
-Además de `BINARY`, puedes usar la cláusula `COLLATE` para especificar un collation sensible a mayúsculas y minúsculas.
-
-#### Comparación exacta con `COLLATE`
-
-```sql
-SELECT *
-FROM usuarios
-WHERE nombre_usuario COLLATE utf8mb4_bin = 'Admin';
-```
-
-Este ejemplo realiza una comparación exacta entre `nombre_usuario` y 'Admin' usando el collation `utf8mb4_bin`, que es sensible a mayúsculas y minúsculas.
-
-#### Uso de `LIKE` con `COLLATE`
-
-```sql
-SELECT *
-FROM documentos
-WHERE titulo COLLATE utf8mb4_bin LIKE 'Report%';
-```
-
-Este ejemplo selecciona todos los registros donde el título comience con 'Report', diferenciando entre mayúsculas y minúsculas.
-
-### Ejemplo práctico: Tabla de productos
-
-Supongamos que tienes una tabla `productos` con una columna `nombre_producto` y quieres buscar todos los productos cuyo nombre contiene la palabra 'Especial', respetando la distinción entre mayúsculas y minúsculas.
-
-```sql
-SELECT *
-FROM productos
-WHERE BINARY nombre_producto LIKE '%Especial%';
-```
-
-En este ejemplo, solo se seleccionarán los productos cuyo `nombre_producto` contenga exactamente 'Especial', sin coincidir con variantes como 'especial' o 'ESPECIAL'.
-
-### Ejemplo práctico: Actualizar registros con comparación binaria
-
-También puedes usar `BINARY` en una cláusula `UPDATE` para asegurarte de que solo se actualicen los registros que coincidan exactamente.
-
-```sql
-UPDATE usuarios
-SET estado = 'activo'
-WHERE BINARY nombre_usuario = 'Admin';
-```
-
-Este ejemplo actualiza el estado a 'activo' solo para los usuarios cuyo `nombre_usuario` sea exactamente 'Admin'.
-
-### Resumen
-
-Usar `BINARY` en MySQL permite realizar comparaciones y búsquedas que distinguen entre mayúsculas y minúsculas, lo cual es útil en contextos donde la exactitud en la capitalización es importante. Puedes combinar `BINARY` con operadores como `=` y `LIKE` para lograr una variedad de búsquedas específicas. Además, la cláusula `COLLATE` ofrece otra forma de controlar la sensibilidad de las comparaciones a mayúsculas y minúsculas.
-
 ### Funciones
 
 #### `IFNULL`
